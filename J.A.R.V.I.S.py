@@ -5,7 +5,7 @@ engine = pyttsx3.init()
 
 # getting details of current speaking rate
 rate = engine.getProperty('rate')
-print(rate)
+#print(rate)
 # set details of current speaking rate (speech speed)
 engine.setProperty('rate', 200)
 
